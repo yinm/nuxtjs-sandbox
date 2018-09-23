@@ -19,7 +19,6 @@
     "nuxt-property-decorator": "^1.2.0"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
     "eslint": "^5.0.1",
     "eslint-config-typescript": "^1.1.0",
     "eslint-loader": "^2.0.0",
