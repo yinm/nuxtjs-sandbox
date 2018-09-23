@@ -11,8 +11,8 @@ import { Component, Vue, Prop } from 'nuxt-property-decorator'
 
 @Component
 export default class HelloComponent extends Vue {
-  @Prop() name: string
-  @Prop() initialEnthusiasm: number
+  @Prop() name!: string
+  @Prop() initialEnthusiasm!: number
 
   enthusiasm = this.initialEnthusiasm
 

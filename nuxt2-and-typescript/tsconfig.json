@@ -13,7 +13,6 @@
     "suppressImplicitAnyIndexErrors": true,
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
-    "strictPropertyInitialization": false,
     "baseUrl": ".",
     "paths": {
       "~/*": ["./*"]
