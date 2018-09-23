@@ -4,16 +4,17 @@ module.exports = {
     browser: true,
     node: true
   },
+  parser: 'vue-eslint-parser',
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: 'typescript-eslint-parser'
   },
   extends: [
+    'eslint:recommended',
     'plugin:vue/recommended',
-  ],
-  // required to lint *.vue files
-  plugins: [
-    'vue'
+    'typescript'
   ],
   // add your custom rules here
-  rules: {}
+  rules: {
+    semi: ['error', 'never']
+  }
 }
