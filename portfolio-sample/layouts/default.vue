@@ -1,8 +1,21 @@
 <template>
-  <div>
+  <div class="default-container">
+    <my-navigation-bar class="default-header" />
     <nuxt/>
   </div>
 </template>
+
+<script lang="ts">
+import { Component, Vue } from 'nuxt-property-decorator'
+import MyNavigationBar from '~/components/MyNavigationBar.vue'
+
+@Component({
+  components: {
+    MyNavigationBar
+  }
+})
+export default class extends Vue {}
+</script>
 
 <style>
 html {
@@ -22,5 +35,9 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+.default-header {
+  margin-bottom: 50px;
 }
 </style>

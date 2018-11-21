@@ -18,7 +18,7 @@ export default class extends Vue {}
 
 <style scoped>
 .container {
-  max-width: 80%;
+  max-width: 1000px;
   margin: 0 auto;
 }
 </style>
